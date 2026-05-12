@@ -32,7 +32,7 @@ jobs:
       # If you're using a username.github.io root repo or a custom domain, leave it blank.
       - name: Build static export
         env:
-          NEXT_PUBLIC_BASE_PATH: /easyeventsoft-demo
+          NEXT_PUBLIC_BASE_PATH: /easyeventsoft
         run: npm run build
 
       - name: Add .nojekyll
